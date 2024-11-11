@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imad Ali - Official Website</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #ff7e5f, #feb47b, #f9d423, #ff4e50, #00bcd4);
+            color: white;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-bottom: 2px solid #ffffff;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 3em;
+            color: #ffeb3b;
+            margin: 0;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.2em;
+            color: #ffffff;
+            margin-top: 10px;
+        }
+        .container {
+            text-align: center;
+            margin-top: 40px;
+            padding: 0 20px;
+        }
+        .profile-pic, .yt-logo {
+            border-radius: 50%;
+            width: 220px;
+            height: 220px;
+            object-fit: cover;
+            margin: 20px;
+            transition: transform 0.3s ease;
+        }
+        .profile-pic:hover, .yt-logo:hover {
+            transform: scale(1.1);
+        }
+        .projects {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 40px 20px;
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+        .projects h2 {
+            font-size: 2.5em;
+            color: #ffeb3b;
+            margin-bottom: 20px;
+        }
+        .project {
+            margin-bottom: 30px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+        }
+        .contact-button {
+            background-color: #ff4081;
+            color: white;
+            font-size: 1.5em;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            margin-top: 30px;
+            margin-right: 20px;
+            text-decoration: none;
+        }
+        .contact-button:hover {
+            background-color: #ff80ab;
+            transform: scale(1.1);
+        }
+        footer {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 20px;
+            position: relative;
+            width: 100%;
+        }
+        footer p {
+            font-size: 1.1em;
+        }
+        .youtube-seo-expert {
+            font-size: 1.5em;
+            color: #ffeb3b;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .seo-description {
+            font-size: 1.1em;
+            color: white;
+            margin-top: 10px;
+        }
+        
+        /* Mobile Responsiveness */
+        @media screen and (max-width: 768px) {
+            header {
+                padding: 40px 10px;
+            }
+            h1 {
+                font-size: 2.5em;
+            }
+            .profile-pic, .yt-logo {
+                width: 180px;
+                height: 180px;
+            }
+            .projects h2 {
+                font-size: 2em;
+            }
+            .project {
+                padding: 15px;
+            }
+            .contact-button {
+                font-size: 1.3em;
+                padding: 12px 30px;
+            }
+        }
+        
+        /* Extra small screen (Mobile) */
+        @media screen and (max-width: 480px) {
+            h1 {
+                font-size: 2em;
+            }
+            p {
+                font-size: 1em;
+            }
+            .profile-pic, .yt-logo {
+                width: 150px;
+                height: 150px;
+            }
+            .projects h2 {
+                font-size: 1.8em;
+            }
+            .contact-button {
+                font-size: 1.2em;
+                padding: 10px 25px;
+            }
+            footer p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Imad Ali - Official Page</h1>
+        <p>Welcome to the official website of Imad Ali, a renowned content creator and tech enthusiast.</p>
+    </header>
+
+    <div class="container">
+        <img class="profile-pic" src="https://files.catbox.moe/8rnt3d.jpg" alt="Imad Ali">
+        <img class="yt-logo" src="https://files.catbox.moe/2p59vv.jpg" alt="YouTube Logo">
+        <p>Imad Ali is a YouTuber, developer, and a YouTube SEO Expert known for creating innovative content and projects in the tech world.</p>
+        <p>Explore my work and projects that bring creative solutions to the digital space.</p>
+
+        <!-- YouTube SEO Expert Section -->
+        <div class="youtube-seo-expert">YouTube SEO Expert</div>
+        <p class="seo-description">With years of experience in YouTube SEO, I specialize in optimizing video titles, descriptions, tags, and thumbnails to maximize reach and engagement on YouTube. My goal is to help creators and businesses get their content noticed by the right audience.</p>
+    </div>
+
+    <div class="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>WhatsApp Bot</h3>
+            <p>Developed a WhatsApp bot for automating tasks like media downloads, AI responses, group management, and more. The bot is currently in version 1, offering public access and a range of useful features.</p>
+        </div>
+        <div class="project">
+            <h3>Game Development</h3>
+            <p>Created multiple games, including a car racing game, focusing on engaging and interactive gameplay. Currently working on enhancing the game's graphics and features for a better user experience.</p>
+        </div>
+        <div class="project">
+            <h3>APK Modifications</h3>
+            <p>Involved in modifying APK files for various apps, including removing premium features and customizing the user interface. Aiming to make apps more accessible to users worldwide.</p>
+        </div>
+    </div>
+
+    <div>
+        <a class="contact-button" href="mailto:imadalidir@gmail.com">Contact Us (Email)</a>
+        <a class="contact-button" href="https://whatsapp.com/channel/0029Vaq4PRsD38CJKXzwmb42" target="_blank">Contact Us (WhatsApp)</a>
+    </div>
+
+    <footer>
+        <p>Follow me on YouTube and stay tuned for more exciting projects!</p>
+    </footer>
+</body>
+</html>
